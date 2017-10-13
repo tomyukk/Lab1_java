@@ -34,7 +34,8 @@ public class Laba1Test {
 		  return new Object[][] {
 			  {123,132},
 			  {125,152},
-			  {251,215}
+			  {251,215},
+			  {154,145}
 		  };
 	  }
 	  
