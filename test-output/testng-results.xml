@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136" started-at="2017-10-10T06:11:23Z" finished-at="2017-10-10T06:11:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="136" started-at="2017-10-10T06:11:23Z" finished-at="2017-10-10T06:11:23Z">
+      <class name="testTask.Laba1Test">
+        <test-method status="PASS" signature="IncorrectInputTest(int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="IncorrectInputTest" duration-ms="9" started-at="2017-10-10T09:11:23Z" data-provider="IncorrectInputProvider" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2100]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect input!
+	at task.Laba1.while16(Laba1.java:107)
+	at testTask.Laba1Test.IncorrectInputTest(Laba1Test.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectInputTest -->
+        <test-method status="PASS" signature="IncorrectInputTest(int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="IncorrectInputTest" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="IncorrectInputProvider" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect input!
+	at task.Laba1.while16(Laba1.java:107)
+	at testTask.Laba1Test.IncorrectInputTest(Laba1Test.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectInputTest -->
+        <test-method status="PASS" signature="IncorrectInputTest(int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="IncorrectInputTest" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="IncorrectInputProvider" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect input!
+	at task.Laba1.while16(Laba1.java:107)
+	at testTask.Laba1Test.IncorrectInputTest(Laba1Test.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectInputTest -->
+        <test-method status="PASS" signature="testarray33([I, int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testarray33" duration-ms="3" started-at="2017-10-10T09:11:23Z" data-provider="array33Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3b0143d3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testarray33 -->
+        <test-method status="PASS" signature="testarray33([I, int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testarray33" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="array33Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5a8e6209]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testarray33 -->
+        <test-method status="PASS" signature="testbegin16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testbegin16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="begin16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbegin16 -->
+        <test-method status="PASS" signature="testbegin16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testbegin16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="begin16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbegin16 -->
+        <test-method status="PASS" signature="testbegin16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testbegin16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="begin16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbegin16 -->
+        <test-method status="PASS" signature="testboolean16(int, boolean)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testboolean16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="boolean16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testboolean16 -->
+        <test-method status="PASS" signature="testboolean16(int, boolean)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testboolean16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="boolean16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testboolean16 -->
+        <test-method status="PASS" signature="testboolean16(int, boolean)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testboolean16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="boolean16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testboolean16 -->
+        <test-method status="PASS" signature="testboolean16(int, boolean)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testboolean16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="boolean16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testboolean16 -->
+        <test-method status="PASS" signature="testcase16(int, java.lang.String)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testcase16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="case16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[сорок п'ять років]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase16 -->
+        <test-method status="PASS" signature="testcase16(int, java.lang.String)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testcase16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="case16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[тридцять два роки]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase16 -->
+        <test-method status="PASS" signature="testcase16(int, java.lang.String)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testcase16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="case16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[двадцять один рік]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase16 -->
+        <test-method status="PASS" signature="testfor16(double, int, [D)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testfor16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="for16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[D@4b4523f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfor16 -->
+        <test-method status="PASS" signature="testfor16(double, int, [D)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testfor16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="for16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[D@731a74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfor16 -->
+        <test-method status="PASS" signature="testif16(double, double, double, double, double, double)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testif16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="if16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testif16 -->
+        <test-method status="PASS" signature="testif16(double, double, double, double, double, double)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testif16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="if16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-0.5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testif16 -->
+        <test-method status="PASS" signature="testif16(double, double, double, double, double, double)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testif16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="if16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testif16 -->
+        <test-method status="PASS" signature="testinteger16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testinteger16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="integer16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[132]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinteger16 -->
+        <test-method status="PASS" signature="testinteger16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testinteger16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="integer16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinteger16 -->
+        <test-method status="PASS" signature="testinteger16(int, int)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testinteger16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="integer16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[251]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinteger16 -->
+        <test-method status="PASS" signature="testmatrix62([[I, int, int, int, [[I)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testmatrix62" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="matrix62Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@369f73a2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[[I@1f28c152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmatrix62 -->
+        <test-method status="PASS" signature="testmatrix62([[I, int, int, int, [[I)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testmatrix62" duration-ms="3" started-at="2017-10-10T09:11:23Z" data-provider="matrix62Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@7d907bac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[[I@7791a895]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmatrix62 -->
+        <test-method status="PASS" signature="testmatrix62([[I, int, int, int, [[I)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testmatrix62" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="matrix62Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@3a5ed7a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[[I@6325a3ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmatrix62 -->
+        <test-method status="PASS" signature="testwhile16(int, int, double)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testwhile16" duration-ms="2" started-at="2017-10-10T09:11:23Z" data-provider="while16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[238.576907]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhile16 -->
+        <test-method status="PASS" signature="testwhile16(int, int, double)[pri:0, instance:testTask.Laba1Test@1810399e]" name="testwhile16" duration-ms="1" started-at="2017-10-10T09:11:23Z" data-provider="while16Data" finished-at="2017-10-10T09:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[207.9890176]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhile16 -->
+      </class> <!-- testTask.Laba1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

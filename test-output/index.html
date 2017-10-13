@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\tomyu\AppData\Local\Temp\testng-eclipse--1115520887\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="IncorrectInputTest(95)">IncorrectInputTest(95)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="IncorrectInputTest(2100)">IncorrectInputTest(2100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="IncorrectInputTest(70)">IncorrectInputTest(70)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testarray33([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9)">testarray33([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testarray33([4, 2, 3, 4, 5, 6, 7, 2], 8, 7)">testarray33([4, 2, 3, 4, 5, 6, 7, 2], 8, 7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testbegin16(3, 3)">testbegin16(3, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testbegin16(2, 2)">testbegin16(2, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testbegin16(5, 5)">testbegin16(5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testboolean16(87, false)">testboolean16(87, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testboolean16(88, true)">testboolean16(88, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testboolean16(22, true)">testboolean16(22, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testboolean16(33, false)">testboolean16(33, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testcase16(32, тридцять два роки)">testcase16(32, тридцять два роки)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testcase16(21, двадцять один рік)">testcase16(21, двадцять один рік)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testcase16(45, сорок п&#039;ять років)">testcase16(45, сорок п'ять років)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testfor16(1, 3, [1.0, 1.0, 1.0])">testfor16(1, 3, [1.0, 1.0, 1.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testfor16(3, 4, [3.0, 9.0, 27.0, 81.0])">testfor16(3, 4, [3.0, 9.0, 27.0, 81.0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testif16(0.3, 1.5, 2.1, 0.6, 3.0, 4.2)">testif16(0.3, 1.5, 2.1, 0.6, 3.0, 4.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testif16(1, 2, 3, 2, 4, 6)">testif16(1, 2, 3, 2, 4, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testif16(1, 0.5, -3.2, -1, -0.5, 3.2)">testif16(1, 0.5, -3.2, -1, -0.5, 3.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testinteger16(125, 152)">testinteger16(125, 152)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testinteger16(251, 215)">testinteger16(251, 215)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testinteger16(123, 132)">testinteger16(123, 132)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testmatrix62([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]])">testmatrix62([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testmatrix62([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]])">testmatrix62([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testmatrix62([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]])">testmatrix62([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testwhile16(20, 9, 207.9890176)">testwhile16(20, 9, 207.9890176)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testTask.Laba1Test" hash-for-method="testwhile16(30, 8, 238.576907)">testwhile16(30, 8, 238.576907)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testTask.Laba1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncorrectInputTest(95)">
+                  </a> <!-- IncorrectInputTest(95) -->
+                  <span class="method-name">IncorrectInputTest</span>
+                  <span class="parameters">(95)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncorrectInputTest(2100)">
+                  </a> <!-- IncorrectInputTest(2100) -->
+                  <span class="method-name">IncorrectInputTest</span>
+                  <span class="parameters">(2100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncorrectInputTest(70)">
+                  </a> <!-- IncorrectInputTest(70) -->
+                  <span class="method-name">IncorrectInputTest</span>
+                  <span class="parameters">(70)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testarray33([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9)">
+                  </a> <!-- testarray33([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9) -->
+                  <span class="method-name">testarray33</span>
+                  <span class="parameters">([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testarray33([4, 2, 3, 4, 5, 6, 7, 2], 8, 7)">
+                  </a> <!-- testarray33([4, 2, 3, 4, 5, 6, 7, 2], 8, 7) -->
+                  <span class="method-name">testarray33</span>
+                  <span class="parameters">([4, 2, 3, 4, 5, 6, 7, 2], 8, 7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testbegin16(3, 3)">
+                  </a> <!-- testbegin16(3, 3) -->
+                  <span class="method-name">testbegin16</span>
+                  <span class="parameters">(3, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testbegin16(2, 2)">
+                  </a> <!-- testbegin16(2, 2) -->
+                  <span class="method-name">testbegin16</span>
+                  <span class="parameters">(2, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testbegin16(5, 5)">
+                  </a> <!-- testbegin16(5, 5) -->
+                  <span class="method-name">testbegin16</span>
+                  <span class="parameters">(5, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testboolean16(87, false)">
+                  </a> <!-- testboolean16(87, false) -->
+                  <span class="method-name">testboolean16</span>
+                  <span class="parameters">(87, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testboolean16(88, true)">
+                  </a> <!-- testboolean16(88, true) -->
+                  <span class="method-name">testboolean16</span>
+                  <span class="parameters">(88, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testboolean16(22, true)">
+                  </a> <!-- testboolean16(22, true) -->
+                  <span class="method-name">testboolean16</span>
+                  <span class="parameters">(22, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testboolean16(33, false)">
+                  </a> <!-- testboolean16(33, false) -->
+                  <span class="method-name">testboolean16</span>
+                  <span class="parameters">(33, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase16(32, тридцять два роки)">
+                  </a> <!-- testcase16(32, тридцять два роки) -->
+                  <span class="method-name">testcase16</span>
+                  <span class="parameters">(32, тридцять два роки)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase16(21, двадцять один рік)">
+                  </a> <!-- testcase16(21, двадцять один рік) -->
+                  <span class="method-name">testcase16</span>
+                  <span class="parameters">(21, двадцять один рік)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase16(45, сорок п&#039;ять років)">
+                  </a> <!-- testcase16(45, сорок п'ять років) -->
+                  <span class="method-name">testcase16</span>
+                  <span class="parameters">(45, сорок п'ять років)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfor16(1, 3, [1.0, 1.0, 1.0])">
+                  </a> <!-- testfor16(1, 3, [1.0, 1.0, 1.0]) -->
+                  <span class="method-name">testfor16</span>
+                  <span class="parameters">(1, 3, [1.0, 1.0, 1.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfor16(3, 4, [3.0, 9.0, 27.0, 81.0])">
+                  </a> <!-- testfor16(3, 4, [3.0, 9.0, 27.0, 81.0]) -->
+                  <span class="method-name">testfor16</span>
+                  <span class="parameters">(3, 4, [3.0, 9.0, 27.0, 81.0])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testif16(0.3, 1.5, 2.1, 0.6, 3.0, 4.2)">
+                  </a> <!-- testif16(0.3, 1.5, 2.1, 0.6, 3.0, 4.2) -->
+                  <span class="method-name">testif16</span>
+                  <span class="parameters">(0.3, 1.5, 2.1, 0.6, 3.0, 4.2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testif16(1, 2, 3, 2, 4, 6)">
+                  </a> <!-- testif16(1, 2, 3, 2, 4, 6) -->
+                  <span class="method-name">testif16</span>
+                  <span class="parameters">(1, 2, 3, 2, 4, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testif16(1, 0.5, -3.2, -1, -0.5, 3.2)">
+                  </a> <!-- testif16(1, 0.5, -3.2, -1, -0.5, 3.2) -->
+                  <span class="method-name">testif16</span>
+                  <span class="parameters">(1, 0.5, -3.2, -1, -0.5, 3.2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testinteger16(125, 152)">
+                  </a> <!-- testinteger16(125, 152) -->
+                  <span class="method-name">testinteger16</span>
+                  <span class="parameters">(125, 152)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testinteger16(251, 215)">
+                  </a> <!-- testinteger16(251, 215) -->
+                  <span class="method-name">testinteger16</span>
+                  <span class="parameters">(251, 215)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testinteger16(123, 132)">
+                  </a> <!-- testinteger16(123, 132) -->
+                  <span class="method-name">testinteger16</span>
+                  <span class="parameters">(123, 132)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmatrix62([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]])">
+                  </a> <!-- testmatrix62([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]]) -->
+                  <span class="method-name">testmatrix62</span>
+                  <span class="parameters">([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmatrix62([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]])">
+                  </a> <!-- testmatrix62([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]]) -->
+                  <span class="method-name">testmatrix62</span>
+                  <span class="parameters">([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testmatrix62([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]])">
+                  </a> <!-- testmatrix62([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]]) -->
+                  <span class="method-name">testmatrix62</span>
+                  <span class="parameters">([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwhile16(20, 9, 207.9890176)">
+                  </a> <!-- testwhile16(20, 9, 207.9890176) -->
+                  <span class="method-name">testwhile16</span>
+                  <span class="parameters">(20, 9, 207.9890176)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testwhile16(30, 8, 238.576907)">
+                  </a> <!-- testwhile16(30, 8, 238.576907) -->
+                  <span class="method-name">testwhile16</span>
+                  <span class="parameters">(30, 8, 238.576907)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tomyu\AppData\Local\Temp\testng-eclipse--1115520887\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testTask.Laba1Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'IncorrectInputTest')
+data.setCell(0, 2, 'testTask.Laba1Test')
+data.setCell(0, 3, 9);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testmatrix62')
+data.setCell(1, 2, 'testTask.Laba1Test')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testarray33')
+data.setCell(2, 2, 'testTask.Laba1Test')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testboolean16')
+data.setCell(3, 2, 'testTask.Laba1Test')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testwhile16')
+data.setCell(4, 2, 'testTask.Laba1Test')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testif16')
+data.setCell(5, 2, 'testTask.Laba1Test')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testif16')
+data.setCell(6, 2, 'testTask.Laba1Test')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testif16')
+data.setCell(7, 2, 'testTask.Laba1Test')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testarray33')
+data.setCell(8, 2, 'testTask.Laba1Test')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testbegin16')
+data.setCell(9, 2, 'testTask.Laba1Test')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testmatrix62')
+data.setCell(10, 2, 'testTask.Laba1Test')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcase16')
+data.setCell(11, 2, 'testTask.Laba1Test')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testbegin16')
+data.setCell(12, 2, 'testTask.Laba1Test')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcase16')
+data.setCell(13, 2, 'testTask.Laba1Test')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testfor16')
+data.setCell(14, 2, 'testTask.Laba1Test')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'IncorrectInputTest')
+data.setCell(15, 2, 'testTask.Laba1Test')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testwhile16')
+data.setCell(16, 2, 'testTask.Laba1Test')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testboolean16')
+data.setCell(17, 2, 'testTask.Laba1Test')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testboolean16')
+data.setCell(18, 2, 'testTask.Laba1Test')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testinteger16')
+data.setCell(19, 2, 'testTask.Laba1Test')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testinteger16')
+data.setCell(20, 2, 'testTask.Laba1Test')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testbegin16')
+data.setCell(21, 2, 'testTask.Laba1Test')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testcase16')
+data.setCell(22, 2, 'testTask.Laba1Test')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testinteger16')
+data.setCell(23, 2, 'testTask.Laba1Test')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testboolean16')
+data.setCell(24, 2, 'testTask.Laba1Test')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'IncorrectInputTest')
+data.setCell(25, 2, 'testTask.Laba1Test')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testfor16')
+data.setCell(26, 2, 'testTask.Laba1Test')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testmatrix62')
+data.setCell(27, 2, 'testTask.Laba1Test')
+data.setCell(27, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testTask.Laba1Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">IncorrectInputTest(2100)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IncorrectInputTest(70)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IncorrectInputTest(95)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testarray33([4, 2, 3, 4, 5, 6, 7, 2], 8, 7)</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testarray33([2, 1, 2, 3, 5, 15, 3, 5, 8, 2], 10, 9)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testbegin16(2, 2)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testbegin16(3, 3)</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testbegin16(5, 5)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testboolean16(22, true)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testboolean16(33, false)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testboolean16(87, false)</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testboolean16(88, true)</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase16(45, сорок п'ять років)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase16(32, тридцять два роки)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase16(21, двадцять один рік)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfor16(1, 3, [1.0, 1.0, 1.0])</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfor16(3, 4, [3.0, 9.0, 27.0, 81.0])</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testif16(1, 2, 3, 2, 4, 6)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testif16(1, 0.5, -3.2, -1, -0.5, 3.2)</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testif16(0.3, 1.5, 2.1, 0.6, 3.0, 4.2)</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testinteger16(123, 132)</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testinteger16(125, 152)</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testinteger16(251, 215)</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmatrix62([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3, 3, 2, [[1, 3], [4, 6], [7, 9]])</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmatrix62([[2, 3, 11, 2], [4, 5, 1, 5], [3, 2, 4, 7]], 3, 4, 1, [[3, 11, 2], [5, 1, 5], [2, 4, 7]])</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testmatrix62([[5, 2], [4, 3], [12, 8]], 3, 2, 2, [[5], [4], [12]])</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testwhile16(30, 8, 238.576907)</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testwhile16(20, 9, 207.9890176)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
